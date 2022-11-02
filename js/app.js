@@ -11,7 +11,9 @@ createApp({
     data(){
         return {
             messaggio: 'Ciao Vue!',
-            colorText: 'red'
+            colorText: 'red',
+            percorsoImg: 'img/',
+            img: 'snow.jpg'
         }
     }
 }).mount('#app')
