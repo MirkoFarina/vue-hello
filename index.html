@@ -11,7 +11,12 @@
 <body>
   <div id="app">
     <h1 :class="colorText">{{messaggio}}</h1>
-    <img :src="percorsoImg + img" alt="">
+    <img :src="percorsoImg + img" alt=""> 
+    <p v-show="isShow">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum aspernatur non voluptates? Praesentium explicabo numquam qui odio ut ipsam officia.
+    </p>
+    <button @click="img = secondImg">Cambia immagine</button>
+    <button @click="isShow = !isShow">Scopri di più!!!!!!</button>
   </div>
 
   <script src="js/app.js"></script>
